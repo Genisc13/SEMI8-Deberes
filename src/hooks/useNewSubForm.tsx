@@ -21,6 +21,7 @@ const INITIAL_STATE = {
      avatar:"",
     description:"",
     money:0,
+    level:0,
 }
 
 const formReducer = (state: FromState["inputValues"], action: FormReducerAction) => {

@@ -44,6 +44,8 @@ const Form = ({ onNewSub }: FromProps) => {
                 <input onChange={handleChange} value={inputValues.avatar} type="text" name="avatar" placeholder="avatar URL" />
                 <textarea onChange={handleChange} value={inputValues.description} name="description" placeholder="description" />
                 <input onChange={handleChange} value={inputValues.money} type="number" name="money" placeholder="money" />
+                <input onChange={handleChange} value={inputValues.level} type="number" name="level" placeholder="level" />
+
                 <button onClick={handleClear} type="button">Clear the form</button>
                 <button type="submit">Save new sub!</button>
 
